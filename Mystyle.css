@@ -1,0 +1,52 @@
+body {
+ font: 100% Verdana, Arial, Helvetica, sans-serif;
+ background: #666666; 
+ margin: 0; 
+ padding: 0;
+ text-align: center;
+ color: #000000;
+
+}
+/* ส่วน Page Header */
+.thrColFixHdr #header {
+ background: #DDDDDD;
+ text-align: center;
+ color:rgb(39, 137, 228);
+}
+/* สวน Page Body บรรจุเนื้อหา*/
+.thrColFixHdr #container {
+ width: auto; 
+ line-height: 1;
+ background: #FFFFFF;
+ margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+ border: 1px solid #000000;
+ text-align: left; /* this overrides the text-align: center on the body element. */
+}
+/*ส่วนคอลลัมด้านซ้าย*/
+.thrColFixHdr #sidebar1 {
+ float: left;
+ width: 150px;
+ background: #EBEBEB;
+ padding: 15px 10px 15px 20px;
+}
+/*ส่วนคอลลัมด้านขวา*/
+.thrColFixHdr #sidebar2 {
+ float: right;
+ width: 160px;
+ background: #EBEBEB;
+ padding: 15px 10px 15px 20px;
+}
+/* ส่วนเนื้อหาที่อยู๋ระหว่าง sidebar */ 
+.thrColFixHdr #mainContent {
+ margin: 0 200px;
+ padding: 0 10px;
+}
+/* สวน Page Footer */
+.thrColFixHdr #footer {
+ padding: 0 10px 0 20px;
+ background:#DDDDDD;
+ text-align: center;
+}
+.clearfloat {
+ clear:both;
+}
